@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search using Flexbox</title>
+
+    <style>
+        .container {
+            display: inline-flex; /* Align all of them */
+            flex: 1 1 300px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            overflow: hidden;
+        }
+
+        .icon {
+            padding: 0.8rem;
+        }
+        .searchBox{
+            border:0;
+            flex: 1;
+        }
+
+        .searchButton{
+            color: white;
+            background: #0f4a8a;
+            border: 0;
+            padding: 0.8rem;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img class="icon" src="search.svg" alt="Sample image" style="width: 32px; height: 24px;">
+    <input class="searchBox" type="search" name="search" placeholder="Enter text here...">
+    <input type="submit" value="Search" class="searchButton">
+
+</div>
+
+</body>
+</html>
