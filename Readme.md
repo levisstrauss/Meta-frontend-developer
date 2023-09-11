@@ -394,3 +394,16 @@
     values such as hexadecimal, rgb(), rgba(), hsl(), hsla() and so on. Each property should be explored on an 
     individual basis and practicing with the code will help you to decide which of these units of measurement are 
     the most suitable choice. 
+
+---------------- Deep Dive in CSS layout ------------>
+
+    - Flexbox is one dimensional and grid is two dimensional
+    - display: flex or display: grid
+    - Use Flex for simple layout and grid for complex layout
+
+    - Great content for learning CSS flex
+     https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-terminology
+![](./images/1.png)
+![](./images/2.png)
+![](./images/3.png)
+![](./images/4.png)
